@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="bower_components/arcticModal/arcticmodal/jquery.arcticmodal.css">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body class="overflow-hidden">
+    <div class="date-duration">
+        <div class="wrapper">
+            <p>Срок проведения акции: с 07 июня 2016г по 30 ноября 2016г</p><span>|</span>
+            <p>Срок приёма заявок на участие: с 07 июня 2016г по 21 августа 2016г</p>
+        </div>
+    </div>
+    <div id="key">
+        <div class="key-img"></div>
+    </div>
+    <div class="bg">
+        <div class="menu-wrapper">
+            <div id="main_menu">
+                <a href="#" class="logo"></a>
+                <ul>
+                    <li><a href="#">Что за TUC?</a></li>
+                    <li><a href="#">Правила</a></li>
+                    <li><a href="#">Призы</a></li>
+                    <li><a href="#">Галлерея</a></li>
+                    <li><a href="#">Обратная связь</a></li>
+                </ul>
+                <button id="btn_open_auth_modal">Войти</button>
+            </div>
+        </div>
+        <div class="wrapper">
+            <div class="content">
+                <div id="kv">
+                    <div class="hunt-for-prises-text">
+                        <p>охота
+                            <span>на призы</span>
+                        </p>
+                    </div>
+                    <div class="open-tuc-text">
+                        <p>
+                            ОТКРОЙ <span>ТUС</span><br>
+                            ОТКРОЙ <span>СЕЗОН</span><br>
+                            <span>ОХОТЫ НА<br> ПРИЗЫ</span>
+                        </p>
+                    </div>
+                    <div class="kv-block backpack"></div>
+                    <div class="kv-block m_video"></div>
+                    <div class="kv-block ozon"></div>
+                    <div class="kv-block powerbank"></div>
+                    <div class="kv-block slingshot"></div>
+                    <div class="kv-block starbacs"></div>
+                    <div class="kv-block t_shirt"></div>
+                </div>
+                <div id="action">
+                    <button id="registration_code">Зарегистрировать код</button>
+                    <ul>
+                        <li class="action-buy">Начни охоту - купи TUC
+                            или TUC Sandwich</li>
+                        <li class="action-register">Нацелься на призы и регистрируй коды с промоупаковок</li>
+                        <li class="action-get-prise">
+                            Копи баллы и лови
+                            гарантированные
+                            <a href="/prizes"  data-analytics="prizes" >Призы!</a>
+                        </li>
+                        <li class="action-end">
+                            Участвуй в розыгрыше - поймай
+                            <span>секретный приз недели!</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div style="display: none;">
+        <div class="box-modal" id="authModal">
+            <div class="box-modal_close arcticmodal-close"></div>
+            <div class="atribute_modal-left"></div>
+            <div class="atribute_modal-right"></div>
+            <div class="tabs-block">
+                <div class="tabs-link">
+                    <a href="#" class="active" data-type="login">Войти</a>
+                    <a href="#" class="" data-type="registration">Зарегистрироваться</a>
+                </div>
+                <div class="forms">
+                    <form class="login">
+                        <div class="input-block">
+                            <label>Ваш номер телефона</label>
+                            <input type="text">
+                            <div class="validate success"></div>
+                        </div>
+                        <div class="input-block">
+                            <label>Введите пароль</label>
+                            <input type="password">
+                            <div class="validate"></div>
+                        </div>
+                        <div class="social">
+                            <span>Войти через соцсети</span>
+                            <a href="#"><i class="fa fa-vk"></i></a>
+                            <a href="#"><i class="fa fa-facebook"></i></a>
+                        </div>
+                        <button id="btn_login">Войти</button>
+                    </form>
+                    <form class="registration">
+                        <div class="input-block">
+                            <label>Ваш номер телефона</label>
+                            <input type="text">
+                            <div class="validate success"></div>
+                        </div>
+                        <div class="radio-button-block">
+                            <div class="radio-button">
+                                <input type="radio" id="radio_1" name="radio">
+                                <label for="radio_1" class="radio">
+                                    Согласен на рассылку СМС оповещений</label>
+                            </div>
+                            <div class="radio-button">
+                                <input type="radio" id="radio_2" name="radio">
+                                <label for="radio_1" class="radio">Согласен с правилами акции</label>
+                            </div>
+                            <div class="radio-button">
+                                <input type="radio" id="radio_3" name="radio">
+                                <label for="radio_1" class="radio">Согласен на обработку персональных данных</label>
+                            </div>
+                        </div>
+                        <button id="btn_registration">Войти</button>
+                    </form>
+                </div>
+            </div>>
+            <form class="access">
+                <p>На указанный номер телефона был
+                    отправлен пароль для входа в систему</p>
+                <div class="input-block">
+                    <label>Введите пароль</label>
+                    <input type="text">
+                    <div class="validate success"></div>
+                </div>
+                <button id="btn_access">Войти</button>
+            </form>
+        </div>
+    </div>
+    <div style="display: none;">
+        <div class="box-modal" id="registrationCodeModal">
+            <div class="box-modal_close arcticmodal-close"></div>
+            <div class="atribute_modal-left"></div>
+            <div class="atribute_modal-right"></div>
+            <p class="header">Регистрация кода</p>
+            <form class="registration-code-modal">
+                <div class="input-block">
+                    <label>Введите код с пачки TUC</label>
+                    <input type="text">
+                </div>
+                <button id="btn_send_registaration_code">Отправить</button>
+            </form>
+        </div>
+    </div>
+    <div style="display: none;">
+        <div class="box-modal" id="prolongationModal">
+            <div class="box-modal_close arcticmodal-close"></div>
+            <div class="atribute_modal-left"></div>
+            <div class="atribute_modal-right"></div>
+            <h3 class="header">внимание</h3>
+            <p class="text">Срок регистрации кодов продлен
+                до 05 сентября включительно.
+                Призы ждут тебя!<p>
+            <div class="battery-el"></div>
+            <div class="backpack-el"></div>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script type="text/javascript" src="bower_components/plax/js/plax.js"></script>
+    <script type="text/javascript" src="bower_components/arcticModal/arcticmodal/jquery.arcticmodal.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+</body>
+</html>

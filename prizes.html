@@ -1,0 +1,910 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="bower_components/arcticModal/arcticmodal/jquery.arcticmodal.css">
+    <script type="text/javascript" src="libs/modernizr-custom.js"></script>
+</head>
+<body>
+<div class="backdrop-prizes"></div>
+<div class="bg prizes-block">
+    <div class="menu-wrapper">
+        <div id="main_menu">
+            <a href="#" class="logo"></a>
+            <ul>
+                <li><a href="#">Что за TUC?</a></li>
+                <li><a href="#">Правила</a></li>
+                <li><a href="#">Призы</a></li>
+                <li><a href="#">Галлерея</a></li>
+                <li><a href="#">Обратная связь</a></li>
+            </ul>
+            <button id="btn_open_auth_modal">Войти</button>
+        </div>
+    </div>
+    <div class="wrapper">
+        <div class="prizes-blocks">
+            <div class="prize-block guaranteed-prizes">
+                <div class="left-block">
+                    <h2 class="header">призы</h2>
+                    <div class="planka"></div>
+                    <div class="left-1">
+                        <div balls="0" class="container t-shirt">
+                            <div location="http://tucncp.uiux.ru/constructor" class="box t-shirt-box">
+                                <div class="box-1 a t-shirt-bg-origin">
+                                    <div class="t-shirt-img"></div>
+                                    <p class="t-shirt-abbr" style="display: block;">Создай свой <br>дизайн</p>
+                                    <p class="t-shirt-text" style="display: block;">Стильная<br>футболка</p>
+                                    <div class="balls big t-shirt-balls origin" style="display: block;">
+                                        От <span>23-</span>
+                                    </div>
+                                </div>
+                                <div class="box-2 a t-shirt-bg-blue">
+                                    <a href="#" class="link t-shirt-link">
+                                        обменять на баллы
+                                    </a>
+                                    <p class="state">Осталось - <strong>2781</strong> приз</p>
+                                    <div class="t-shirt-img-gray"></div>
+                                    <div class="balls big-white t-shirt-balls">
+                                        От <span>23-</span>
+                                    </div>
+                                </div>
+
+                                <!--<div class="box-2 a t-shirt-bg-not-balls">-->
+                                    <!--<a href="#" class="link t-shirt-link">-->
+                                        <!--<div>этот приз закончился, выбери другой</div>-->
+                                    <!--</a>-->
+                                    <!--<div class="t-shirt-img"></div>-->
+                                    <!--<p class="t-shirt-abbr" style="display: block;">Создай свой <br>дизайн</p>-->
+                                    <!--<p class="t-shirt-text" style="display: block;">Стильная<br>футболка</p>-->
+                                    <!--<div class="balls big-white t-shirt-balls">-->
+                                        <!--От <span>23-</span>-->
+                                    <!--</div>-->
+                                <!--</div>-->
+                            </div>
+                        </div>
+                        <div class="left-2">
+                            <div balls="0" class="container backpack">
+                                <div location="http://tucncp.uiux.ru/constructor?type=Backpack" class="box backpack-box">
+                                    <div class="box-1 a backpack-bg-origin">
+                                        <div class="backpack-img"></div>
+                                        <p class="backpack-abbr" style="display: block;">Создай свой <br>дизайн</p>
+                                        <p class="backpack-text" style="display: block;">Фирменный<br>
+                                            рюкзак
+                                        </p>
+                                        <div class="balls big backpack-balls origin" style="display: block;">
+                                            От <span>25-</span>
+                                        </div>
+                                    </div>
+                                    <!--<div class="box-2 a backpack-bg-blue">-->
+                                        <!--<a href="#" class="link backpack-link">-->
+                                            <!--обменять на баллы-->
+                                        <!--</a>-->
+                                        <!--<p class="state">Осталось - <strong>1750</strong> призов</p>-->
+                                        <!--<div class="backpack-img-gray"></div>-->
+                                        <!--<div class="balls big-white backpack-balls">-->
+                                            <!--От <span>25-</span>-->
+                                        <!--</div>-->
+                                    <!--</div>-->
+
+                                    <div class="box-2 a backpack-bg-not-balls">
+                                        <a href="#" class="link backpack-link">
+                                            <div>этот приз закончился, выбери другой</div>
+                                        </a>
+                                        <div class="backpack-img"></div>
+                                        <p class="backpack-abbr" style="display: block;">Создай свой <br>дизайн</p>
+                                        <p class="backpack-text" style="display: block;">Фирменный<br>
+                                            рюкзак</p>
+                                        <div class="balls big-white backpack-balls">
+                                            От <span>25-</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div balls="25" class="container battery">
+                                <div idprize="5" class="box battery-box">
+                                    <div class="box-1 a battery-bg-origin">
+                                        <div class="battery-img"></div>
+                                        <p class="battery-text" style="display: block;">Универсальный аккумулятор для мобильного</p>
+                                        <div class="balls middle battery-balls origin" style="display: block;">
+                                            25-
+                                        </div>
+                                    </div>
+                                    <!--<div class="box-2 a battery-bg-blue">-->
+                                        <!--<a href="#" class="link battery-link">-->
+                                            <!--обменять на баллы-->
+                                        <!--</a>-->
+                                        <!--<p class="state">Осталось - <strong>10</strong> призов</p>-->
+                                        <!--<div class="battery-img-gray"></div>-->
+                                        <!--<div class="balls middle-white battery-balls">-->
+                                            <!--25- -->
+                                        <!--</div>-->
+                                    <!--</div>-->
+
+                                    <div class="box-2 a battery-bg-not-balls">
+                                        <a href="#" class="link battery-link">
+                                            <div>этот приз <br>закончился,<br> выбери другой</div>
+                                        </a>
+                                        <div class="battery-img"></div>
+                                        <p class="battery-text" style="display: block;">Универсальный аккумулятор для мобильного</p>
+                                        <div class="balls middle-white battery-balls">
+                                            25-
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="right-block">
+                    <div class="left-1">
+                        <div balls="13" class="container starbucks">
+                            <div idprize="1" class="box starbucks-box">
+                                <div class="box-1 a starbucks-bg-origin">
+                                    <div class="starbucks-img"></div>
+                                    <p class="starbucks-text" style="display: block;">Сертификат Starbucks<br>
+                                        на 500 рублей для общения за<br>
+                                        чашечкой кофе</p>
+                                    <div class="balls middle starbucks-balls origin" style="display: block;">
+                                        13-
+                                    </div>
+                                </div>
+                                <!--<div class="box-2 a starbucks-bg-blue">-->
+                                    <!--<a href="#" class="link starbucks-link">-->
+                                        <!--обменять на баллы-->
+                                    <!--</a>-->
+                                    <!--<p class="state">Осталось - <strong>1994</strong> приза</p>-->
+                                    <!--<div class="starbucks-img-gray"></div>-->
+                                    <!--<div class="balls middle-white starbucks-balls">-->
+                                        <!--13- -->
+                                    <!--</div>-->
+                                <!--</div>-->
+
+                                <div class="box-2 a starbucks-bg-not-balls">
+                                    <a href="#" class="link starbucks-link">
+                                        <div>этот приз закончился, выбери другой</div>
+                                    </a>
+                                    <div class="starbucks-img"></div>
+                                    <p class="starbucks-text" style="display: block;">Сертификат Starbucks<br>
+                                        на 500 рублей для общения за<br>
+                                        чашечкой кофе</p>
+                                    <div class="balls middle-white starbucks-balls">
+                                        13-
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div balls="13" class="container ivi">
+                            <div idprize="6" class="box ivi-box">
+                                <div class="box-1 a ivi-bg-origin">
+                                    <div class="ivi-img"></div>
+                                    <p class="ivi-text">Сертификат ivi.ru на 500 рублей для
+                                        истинных киноманов</p>
+                                    <div class="balls middle ivi-balls origin">
+                                        13-
+                                    </div>
+                                </div>
+                                <!--<div class="box-2 a ivi-bg-blue">-->
+                                    <!--<a href="#" class="link ivi-link">-->
+                                        <!--обменять на баллы-->
+                                    <!--</a>-->
+                                    <!--<p class="state">Осталось - <strong>1998</strong> призов </p>-->
+                                    <!--<div class="ivi-img-gray"></div>-->
+                                    <!--<div class="balls middle-white ivi-balls">-->
+                                        <!--13- -->
+                                    <!--</div>-->
+                                <!--</div>-->
+
+                                <div class="box-2 a ivi-bg-not-balls">
+                                    <a href="#" class="link ivi-link">
+                                        <div>этот приз <br>закончился,<br> выбери другой</div>
+                                    </a>
+                                    <div class="ivi-img"></div>
+                                    <p class="ivi-text" style="display: block;">Сертификат ivi.ru на 500 рублей для
+                                        истинных киноманов</p>
+                                    <div class="balls middle-white ivi-balls">
+                                        13-
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div balls="13" class="container m-video">
+                            <div idprize="4" class="box m-video-box">
+                                <div class="box-1 a m-video-bg-origin">
+                                    <div class="m-video-img"></div>
+                                    <p class="m-video-text" style="display: block;">Сертификат М-видео<br>
+                                        на 500 рублей<br> на любые покупки</p>
+                                    <div class="balls small m-video-balls origin" style="display: block;">
+                                        13-
+                                    </div>
+                                </div>
+                                <!--<div class="box-2 a m-video-bg-blue">-->
+                                    <!--<a href="#" class="link m-video-link">-->
+                                        <!--обменять на баллы-->
+                                    <!--</a>-->
+                                    <!--<p class="state">Осталось - <strong>1922</strong> приза</p>-->
+                                    <!--<div class="m-video-img-gray"></div>-->
+                                    <!--<div class="balls small-white m-video-balls">-->
+                                        <!--13- -->
+                                    <!--</div>-->
+                                <!--</div>-->
+                                <div class="box-2 a m-video-bg-not-balls">
+                                    <a href="#" class="link m-video-link">
+                                        <div>этот приз закончился, выбери другой</div>
+                                    </a>
+                                    <div class="m-video-img"></div>
+                                    <p class="m-video-text" style="display: block;">Сертификат М-видео<br>
+                                        на 500 рублей<br> на любые покупки</p>
+                                    <div class="balls small-white m-video-balls">
+                                        13-
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="right-1">
+                        <div balls="1" class="container wallpaper">
+                            <div idprize="2" class="box wallpaper-box">
+                                <div class="box-1 a wallpaper-bg-origin">
+                                    <div class="wallpaper-img"></div>
+                                    <p class="wallpaper-text">Эксклюзивные обои для твоего
+                                        мобильного или компьютера</p>
+                                    <div class="balls small wallpaper-balls origin">
+                                        0-*
+                                    </div>
+                                </div>
+
+
+                                <!--<div class="box-2 a wallpaper-bg-blue">-->
+                                    <!--<a href="#" class="link wallpaper-link">-->
+                                        <!--получить-->
+                                    <!--</a>-->
+                                    <!--<p class="state">Осталось - <strong>8495</strong> призов</p>-->
+                                    <!--<div class="wallpaper-img-gray"></div>-->
+                                    <!--<div class="balls small-white wallpaper-balls">-->
+                                        <!--0-*-->
+                                    <!--</div>-->
+                                <!--</div>-->
+                                <div class="box-2 a wallpaper-bg-not-balls">
+                                    <a href="#" class="link wallpaper-link">
+                                        <div>этот приз <br>закончился,<br> выбери другой</div>
+                                    </a>
+                                    <div class="wallpaper-img"></div>
+                                    <p class="wallpaper-text" style="display: block;">Эксклюзивные обои для твоего
+                                        мобильного или компьютера</p>
+                                    <div class="balls small-white wallpaper-balls">
+                                        0-*
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div balls="13" class="container ozon">
+                            <div idprize="3" class="box ozon-box">
+                                <div class="box-1 a ozon-bg-origin">
+                                    <div class="ozon-img"></div>
+                                    <p class="ozon-text">Сертификат ozon.ru<br> на 500 рублей
+                                        для настоящих профи
+                                        в e-shopping</p>
+                                    <div class="balls middle ozon-balls origin">
+                                        13-
+                                    </div>
+                                </div>
+                                <!--<div class="box-2 a ozon-bg-blue">-->
+                                    <!--<a href="#" class="link ozon-link">-->
+                                        <!--обменять на баллы-->
+                                    <!--</a>-->
+                                    <!--<p class="state">Осталось - <strong>1710</strong> призов</p>-->
+                                    <!--<div class="ozon-img-gray"></div>-->
+                                    <!--<div class="balls middle-white ozon-balls">-->
+                                        <!--13- -->
+                                    <!--</div>-->
+                                <!--</div>-->
+
+                                <div class="box-2 a ozon-bg-not-balls">
+                                    <a href="#" class="link ozon-link">
+                                        <div>этот приз <br>закончился,<br> выбери другой</div>
+                                    </a>
+                                    <div class="ozon-img"></div>
+                                    <p class="ozon-text" style="display: block;">Сертификат ozon.ru<br> на 500 рублей
+                                        для настоящих профи
+                                        в e-shopping</p>
+                                    <div class="balls middle-white ozon-balls">
+                                        13-
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div balls="60" class="container klaustrofobiya">
+                            <div idprize="7" class="box klaustrofobiya-box">
+                                <div class="box-1 a klaustrofobiya-bg-origin">
+                                    <div class="klaustrofobiya-img"></div>
+                                    <p class="klaustrofobiya-text">
+                                        Сертификат<br>
+                                        «Клаустрофобия»<br>
+                                        на приключение<br>
+                                        в компании
+                                    </p>
+                                    <div class="balls middle klaustrofobiya-balls origin">
+                                        60-
+                                    </div>
+                                </div>
+                                <!--<div class="box-2 a klaustrofobiya-bg-blue">-->
+                                    <!--<a href="#" class="link klaustrofobiya-link">-->
+                                        <!--обменять на баллы-->
+                                    <!--</a>-->
+                                    <!--<p class="state">Осталось - <strong>10</strong> призов</p>-->
+                                    <!--<div class="klaustrofobiya-img-gray"></div>-->
+                                    <!--<div class="balls middle-white klaustrofobiya-balls">-->
+                                        <!--60- -->
+                                    <!--</div>-->
+                                <!--</div>-->
+
+                                <div class="box-2 a klaustrofobiya-bg-not-balls">
+                                    <a href="#" class="link klaustrofobiya-link">
+                                        <div>этот приз закончился, выбери другой</div>
+                                    </a>
+                                    <div class="klaustrofobiya-img"></div>
+                                    <div class="balls middle-white klaustrofobiya-balls">
+                                        60-
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="prize-block guaranteed-prizes-for-ie">
+                <div class="left-block">
+                    <h2 class="header">призы</h2>
+                    <div class="planka"></div>
+                    <div class="left-1">
+                        <div balls="0" class="container t-shirt">
+                            <div class="box t-shirt-box">
+                                <div class="box-1  t-shirt-bg-origin">
+                                    <div class="t-shirt-img"></div>
+                                    <p class="t-shirt-text">Стильная<br>футболка</p>
+                                    <p class="t-shirt-abbr">Создай свой <br>дизайн</p>
+                                    <div class="balls big t-shirt-balls origin">
+                                        От <span>23-</span>
+                                    </div>
+                                </div>
+                                <!--<div class="box-2  t-shirt-bg-blue">-->
+                                    <!--<a href="#" class="link t-shirt-link">-->
+                                        <!--обменять на баллы-->
+                                    <!--</a>-->
+                                    <!--<p class="state">Осталось - <strong>123</strong> приза</p>-->
+                                    <!--<div class="t-shirt-img-gray"></div>-->
+                                    <!--<div class="balls big-white t-shirt-balls">-->
+                                        <!--От <span>23-</span>-->
+                                    <!--</div>-->
+                                <!--</div>-->
+
+                                <div class="box-2 a t-shirt-bg-not-balls">
+                                    <a href="#" class="link t-shirt-link">
+                                        <div>этот приз закончился, выбери другой</div>
+                                    </a>
+                                    <div class="t-shirt-img"></div>
+                                    <p class="t-shirt-abbr" style="display: block;">Создай свой <br>дизайн</p>
+                                    <p class="t-shirt-text" style="display: block;">Стильная<br>футболка</p>
+                                    <div class="balls big-white t-shirt-balls">
+                                        От <span>23-</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="left-2">
+                            <div balls="0" class="container backpack">
+                                <div class="box backpack-box">
+                                    <div class="box-1 a backpack-bg-origin">
+                                        <div class="backpack-img"></div>
+                                        <p class="backpack-abbr">Создай свой <br>дизайн</p>
+                                        <p class="backpack-text">Фирменный<br>
+                                            рюкзак
+                                        </p>
+                                        <div class="balls big backpack-balls origin">
+                                            От <span>23-</span>
+                                        </div>
+                                    </div>
+                                    <!--<div class="box-2 a backpack-bg-blue">-->
+                                        <!--<a href="#" class="link backpack-link">-->
+                                            <!--обменять на баллы-->
+                                        <!--</a>-->
+                                        <!--<p class="state">Осталось - <strong>123</strong> приза</p>-->
+                                        <!--<div class="backpack-img-gray"></div>-->
+                                        <!--<div class="balls big-white backpack-balls">-->
+                                            <!--От <span>23-</span>-->
+                                        <!--</div>-->
+                                    <!--</div>-->
+                                    <div class="box-2 a backpack-bg-not-balls">
+                                        <a href="#" class="link backpack-link">
+                                            <div>этот приз закончился, выбери другой</div>
+                                        </a>
+                                        <div class="backpack-img"></div>
+                                        <p class="backpack-abbr" style="display: block;">Создай свой <br>дизайн</p>
+                                        <p class="backpack-text" style="display: block;">Фирменный<br>
+                                            рюкзак</p>
+                                        <div class="balls big-white backpack-balls">
+                                            От <span>25-</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div balls="25" class="container battery">
+                                <div class="box battery-box">
+                                    <div class="box-1 a battery-bg-origin">
+                                        <div class="battery-img"></div>
+                                        <p class="battery-text">Универсальный аккумулятор для мобильного</p>
+                                        <div class="balls middle battery-balls origin">
+                                            23-
+                                        </div>
+                                    </div>
+                                    <!--<div class="box-2 a battery-bg-blue">-->
+                                        <!--<a href="#" class="link battery-link">-->
+                                            <!--обменять на баллы-->
+                                        <!--</a>-->
+                                        <!--<p class="state">Осталось - <strong>123</strong> приза</p>-->
+                                        <!--<div class="battery-img-gray"></div>-->
+                                        <!--<div class="balls middle-white battery-balls">-->
+                                            <!--23- -->
+                                        <!--</div>-->
+                                    <!--</div>-->
+                                    <div class="box-2 a battery-bg-not-balls">
+                                        <a href="#" class="link battery-link">
+                                            <div>этот приз <br>закончился,<br> выбери другой</div>
+                                        </a>
+                                        <div class="battery-img"></div>
+                                        <p class="battery-text" style="display: block;">Универсальный аккумулятор для мобильного</p>
+                                        <div class="balls middle-white battery-balls">
+                                            25-
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="right-block">
+                    <div class="left-1">
+                        <div balls="13" class="container starbucks">
+                            <div class="box starbucks-box">
+                                <div class="box-1 a starbucks-bg-origin">
+                                    <div class="starbucks-img"></div>
+                                    <p class="starbucks-text">Сертификат Starbucks<br>
+                                        на 500 рублей для общения за<br>
+                                        чашечкой кофе</p>
+                                    <div class="balls middle starbucks-balls origin">
+                                        23-
+                                    </div>
+                                </div>
+                                <!--<div class="box-2 a starbucks-bg-blue">-->
+                                    <!--<a href="#" class="link starbucks-link">-->
+                                        <!--обменять на баллы-->
+                                    <!--</a>-->
+                                    <!--<p class="state">Осталось - <strong>123</strong> приза</p>-->
+                                    <!--<div class="starbucks-img-gray"></div>-->
+                                    <!--<div class="balls middle-white starbucks-balls">-->
+                                        <!--23- -->
+                                    <!--</div>-->
+                                <!--</div>-->
+                                <div class="box-2 a starbucks-bg-not-balls">
+                                    <a href="#" class="link starbucks-link">
+                                        <div>этот приз закончился, выбери другой</div>
+                                    </a>
+                                    <div class="starbucks-img"></div>
+                                    <p class="starbucks-text" style="display: block;">Сертификат Starbucks<br>
+                                        на 500 рублей для общения за<br>
+                                        чашечкой кофе</p>
+                                    <div class="balls middle-white starbucks-balls">
+                                        13-
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div balls="13" class="container ivi">
+                            <div class="box ivi-box">
+                                <div class="box-1 a ivi-bg-origin">
+                                    <div class="ivi-img"></div>
+                                    <p class="ivi-text">Сертификат ivi.ru на 500 рублей для
+                                        истинных киноманов</p>
+                                    <div class="balls middle ivi-balls origin">
+                                        23-
+                                    </div>
+                                </div>
+                                <!--<div class="box-2 a ivi-bg-blue">-->
+                                    <!--<a href="#" class="link ivi-link">-->
+                                        <!--обменять на баллы-->
+                                    <!--</a>-->
+                                    <!--<p class="state">Осталось - <strong>123</strong> приза-->
+                                    <!--</p><div class="ivi-img-gray"></div>-->
+                                    <!--<div class="balls middle-white ivi-balls">-->
+                                        <!--23- -->
+                                    <!--</div>-->
+                                    <!--<p></p>-->
+                                <!--</div>-->
+                                <div class="box-2 a ivi-bg-not-balls">
+                                    <a href="#" class="link ivi-link">
+                                        <div>этот приз <br>закончился,<br> выбери другой</div>
+                                    </a>
+                                    <div class="ivi-img"></div>
+                                    <p class="ivi-text" style="display: block;">Сертификат ivi.ru на 500 рублей для
+                                        истинных киноманов</p>
+                                    <div class="balls middle-white ivi-balls">
+                                        13-
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div balls="13" class="container m-video">
+                            <div class="box m-video-box">
+                                <div class="box-1 a m-video-bg-origin">
+                                    <div class="m-video-img"></div>
+                                    <p class="m-video-text">Сертификат М-видео<br> на 500 рублей<br>
+                                        на любые покупки</p>
+                                    <div class="balls small m-video-balls origin">
+                                        23-
+                                    </div>
+                                </div>
+                                <!--<div class="box-2 a m-video-bg-blue">-->
+                                    <!--<a href="#" class="link m-video-link">-->
+                                        <!--обменять на баллы-->
+                                    <!--</a>-->
+                                    <!--<p class="state">Осталось - <strong>123</strong> приза</p>-->
+                                    <!--<div class="m-video-img-gray"></div>-->
+                                    <!--<div class="balls small-white m-video-balls">-->
+                                        <!--23- -->
+                                    <!--</div>-->
+                                <!--</div>-->
+                                <div class="box-2 a m-video-bg-not-balls">
+                                    <a href="#" class="link m-video-link">
+                                        <div>этот приз закончился, выбери другой</div>
+                                    </a>
+                                    <div class="m-video-img"></div>
+                                    <p class="m-video-text" style="display: block;">Сертификат М-видео<br>
+                                        на 500 рублей<br> на любые покупки</p>
+                                    <div class="balls small-white m-video-balls">
+                                        13-
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="right-1">
+                        <div balls="0" class="container wallpaper">
+                            <div class="box wallpaper-box">
+                                <div class="box-1 a wallpaper-bg-origin">
+                                    <div class="wallpaper-img"></div>
+                                    <p class="wallpaper-text">Эксклюзивные обои для твоего
+                                        мобильного или компьютера</p>
+                                    <div class="balls small wallpaper-balls origin">
+                                        23-
+                                    </div>
+                                </div>
+                                <!--<div class="box-2 a wallpaper-bg-blue">-->
+                                    <!--<a href="#" class="link wallpaper-link">-->
+                                        <!--получить-->
+                                    <!--</a>-->
+                                    <!--<p class="state">Осталось - <strong>123</strong> приза</p>-->
+                                    <!--<div class="wallpaper-img-gray"></div>-->
+                                    <!--<div class="balls small-white wallpaper-balls">-->
+                                        <!--23- -->
+                                    <!--</div>-->
+                                <!--</div>-->
+                                <div class="box-2 a wallpaper-bg-not-balls">
+                                    <a href="#" class="link wallpaper-link">
+                                        <div>этот приз <br>закончился,<br> выбери другой</div>
+                                    </a>
+                                    <div class="wallpaper-img"></div>
+                                    <p class="wallpaper-text" style="display: block;">Эксклюзивные обои для твоего
+                                        мобильного или компьютера</p>
+                                    <div class="balls small-white wallpaper-balls">
+                                        0-*
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div balls="13" class="container ozon">
+                            <div class="box ozon-box">
+                                <div class="box-1 a ozon-bg-origin">
+                                    <div class="ozon-img"></div>
+                                    <p class="ozon-text">Сертификат ozon.ru<br> на 500 рублей
+                                        для настоящих профи
+                                        в e-shopping</p>
+                                    <div class="balls middle ozon-balls origin">
+                                        23-
+                                    </div>
+                                </div>
+                                <!--<div class="box-2 a ozon-bg-blue">-->
+                                    <!--<a href="#" class="link ozon-link">-->
+                                        <!--обменять на баллы-->
+                                    <!--</a>-->
+                                    <!--<p class="state">Осталось - <strong>123</strong> приза</p>-->
+                                    <!--<div class="ozon-img-gray"></div>-->
+                                    <!--<div class="balls middle-white ozon-balls">-->
+                                        <!--23- -->
+                                    <!--</div>-->
+                                <!--</div>-->
+                                <div class="box-2 a ozon-bg-not-balls">
+                                    <a href="#" class="link ozon-link">
+                                        <div>этот приз <br>закончился,<br> выбери другой</div>
+                                    </a>
+                                    <div class="ozon-img"></div>
+                                    <p class="ozon-text" style="display: block;">Сертификат ozon.ru<br> на 500 рублей
+                                        для настоящих профи
+                                        в e-shopping</p>
+                                    <div class="balls middle-white ozon-balls">
+                                        13-
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div balls="60" class="container klaustrofobiya">
+                            <div class="box klaustrofobiya-box">
+                                <div class="box-1 a klaustrofobiya-bg-origin">
+                                    <div class="klaustrofobiya-img"></div>
+                                    <p class="klaustrofobiya-text">
+                                        Сертификат<br>
+                                        «Клаустрофобия»<br>
+                                        на приключение<br>
+                                        в компании
+                                    </p>
+                                    <div class="balls middle klaustrofobiya-balls origin">
+                                        23-
+                                    </div>
+                                </div>
+                                <!--<div class="box-2 a klaustrofobiya-bg-blue">-->
+                                    <!--<a href="#" class="link klaustrofobiya-link">-->
+                                        <!--обменять на баллы-->
+                                    <!--</a>-->
+                                    <!--<p class="state">Осталось - <strong>123</strong> приза</p>-->
+                                    <!--<div class="klaustrofobiya-img-gray"></div>-->
+                                    <!--<div class="balls middle-white klaustrofobiya-balls">-->
+                                        <!--23- -->
+                                    <!--</div>-->
+                                <!--</div>-->
+                                <div class="box-2 a klaustrofobiya-bg-not-balls">
+                                    <a href="#" class="link klaustrofobiya-link">
+                                        <div>этот приз закончился, выбери другой</div>
+                                    </a>
+                                    <div class="klaustrofobiya-img"></div>
+                                    <div class="balls middle-white klaustrofobiya-balls">
+                                        60-
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="prize-block weekly-prizes">
+                <div class="header-block">
+                    <h2 class="header">еженедельные призы</h2>
+                    <div class="row">
+                        <div class="prise">
+                            <div style="background-image: url(prizesphoto/footwear.png); background-size:contain; width: 80%; margin: 0 auto;" class="prise-img"></div><div class="notify">
+                            <div class="prise-name">Забавные домашние тапочки</div>
+                            Забавные домашние тапочки убежали прямо в руки
+                            <ul class="winner">
+                                <li><span>1</span>Елена Агеева</li><li><span>2</span>Сергей Гриппа</li>
+                            </ul>
+                        </div>
+                        </div>
+                        <div class="prise">
+                            <div style="background-image: url(prizesphoto/pillow.png); background-size:contain; width: 80%; margin: 0 auto;" class="prise-img"></div><div class="notify">
+                            <div class="prise-name">Мобильная подушка – страус</div>
+                            Мобильная подушка составит компанию в пути
+                            <ul class="winner">
+                                <li><span>1</span>Екатерина Чеснакова</li>
+                            </ul>
+                        </div>
+                        </div>
+                        <div class="prise">
+                            <div style="background-image: url(prizesphoto/football.png); background-size:contain; width: 80%; margin: 0 auto;" class="prise-img"></div><div class="notify">
+                            <div class="prise-name">Настольный футбол</div>
+                            Тренируйся хоть каждый день.  Настольный футбол выиграли
+                            <ul class="winner">
+                                <li><span>1</span>Алексей Семенюк</li>
+                            </ul>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="prise">
+                        <div style="background-image: url(prizesphoto/bottle.png); background-size:contain; width: 80%; margin: 0 auto;" class="prise-img"></div><div class="notify">
+                        <div class="prise-name">Бутылка для воды My Boüle</div>
+                        Модная бутылка для воды с мешочком досталась
+                        <ul class="winner">
+                            <li><span>1</span>Елена Ларионова</li>
+                        </ul>
+                    </div>
+                    </div>
+                    <div class="prise">
+                        <div style="background-image: url(prizesphoto/chair.png); background-size:contain; width: 80%; margin: 0 auto;" class="prise-img"></div><div class="notify">
+                        <div class="prise-name">Кресло Мешок</div>
+                        После победы в розыгрыше в уютном кресле–мешке сможет расслабиться
+                        <ul class="winner">
+                            <li><span>1</span>Константин Федотов</li>
+                        </ul>
+                    </div>
+                    </div>
+                    <div class="prise">
+                        <div style="background-image: url(prizesphoto/smartpot.png); background-size:contain; width: 80%; margin: 0 auto;" class="prise-img"></div><div class="notify">
+                        <div class="prise-name">Смартпот с картриджем в наборе «Томаты Черри»</div>
+                        Выращивать помидорки на подоконнике сможет
+                        <ul class="winner">
+                            <li><span>1</span>Ирина Танчук</li>
+                        </ul>
+                    </div>
+                    </div>
+                    <div class="prise">
+                        <div style="background-image: url(prizesphoto/construct.png); background-size:contain; width: 80%; margin: 0 auto;" class="prise-img"></div><div class="notify">
+                        <div class="prise-name">Конструктор Space Rail</div>
+                        Чувствовать себя космическим инженером с новым конструктором будет
+                        <ul class="winner">
+                            <li><span>1</span>Иван Шмаков</li>
+                        </ul>
+                    </div>
+                    </div>
+                    <div class="prise">
+                        <div style="background-image: url(prizesphoto/camera.png); background-size:contain; width: 80%; margin: 0 auto;" class="prise-img"></div><div class="notify">
+                        <div class="prise-name">Экшн камера</div>
+                        Новая экшн камера поможет не упустить важные моменты
+                        <ul class="winner">
+                            <li><span>1</span>Анна Фирсова</li>
+                        </ul>
+                    </div>
+                    </div>
+                    <div class="prise">
+                        <div style="background-image: url(prizesphoto/game1.png); background-size:contain; width: 80%; margin: 0 auto;" class="prise-img"></div><div class="notify">
+                        <div class="prise-name">Набор настольных игр</div>
+                        Настоящую вечеринку с набором настольных игр устроит
+                        <ul class="winner">
+                            <li><span>1</span>Анна Лисичкина</li>
+                        </ul>
+                    </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="prise">
+                        <div style="background-image: url(prizesphoto/clock.png); background-size:contain; width: 80%; margin: 0 auto;" class="prise-img"></div><div class="notify">
+                        <div class="prise-name">Световой будильник</div>
+                        Просыпаться с первыми лучами своего нового будильника будет
+                        <ul class="winner">
+                            <li><span>1</span>Владимир Куликов</li>
+                        </ul>
+                    </div>
+                    </div>
+                    <div class="prise">
+                        <div style="background-image: url(prizesphoto/objective.png); background-size:contain; width: 80%; margin: 0 auto;" class="prise-img"></div><div class="notify">
+                        <div class="prise-name">Беспроводной объектив для смартфона</div>
+                        Еще больше селфи и милых котиков в кадре с беспроводным объективом для смартфона для
+                        <ul class="winner">
+                            <li><span>1</span>Вадим Ефимов</li>
+                        </ul>
+                    </div>
+                    </div>
+                    <div class="prise">
+                        <div class="prise-img nothink"></div>
+                    </div>
+                    <div class="prise">
+                        <div class="prise-img nothink"></div>
+                    </div>
+                    <div class="prise">
+                        <div class="prise-img nothink"></div>
+                    </div>
+                    <div class="prise">
+                        <div class="prise-img nothink"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="terms">
+            <p>Каждую неделю мы разыгрываем секретный приз который
+                дарим одному зарегистрированному пользователю в случаном порядке
+            </p>
+            <p><span>*</span>
+                Зарегистрируй хотя бы один код<br>
+                и получи приз за 0 баллов
+            </p>
+        </div>
+        <a href="#" class="link-go-terms-in-detail">Подробнее о правилах</a>
+    </div>
+</div>
+
+<div style="display: none;">
+    <div class="box-modal" id="selectPriseModal">
+        <div class="box-modal_close arcticmodal-close"></div>
+        <div class="atribute_modal-left"></div>
+        <div class="atribute_modal-right"></div>
+        <p class="header">Выбор приза</p>
+        <p class="subheader">Убедитесь в правильности данных. В случае если информация верна - подтвердите ваш выбор</p>
+        <div class="user-data">
+            <p class="data">
+                <span class="abr">ФИО</span>
+                <span class="line"></span>
+                <span class="name">
+                    <input type="text" disabled class="name" value="Иванов Иван Иванович">
+                </span>
+
+            </p>
+            <p class="data">
+                <span class="abr">Дата рождения</span>
+                <span class="line"></span>
+                <span class="name">
+                    <input type="text" disabled class="name" value="08.08.1987">
+                </span>
+            </p>
+            <p class="data">
+                <span class="abr">Пол</span>
+                <span class="line"></span>
+                <span class="name">
+                    <select disabled>
+                        <option>муж.</option>
+                        <option>жен.</option>
+                    </select>
+                </span>
+            </p>
+            <p class="data" style="margin-bottom: 15px;">
+                <span class="abr">Адрес</span>
+                <span class="line"></span>
+                <span class="name">
+                    <input type="text" disabled class="name" value="г. Москва, ул. Первомайская 19, кв 71" style="width: 300px;">
+                </span>
+            </p>
+            <p class="data">
+                <span class="abr">E-mail адрес</span>
+                <span class="line"></span>
+                <span class="name">
+                    <input type="text" disabled class="name" value="abrus1987@gmail.com">
+                </span>
+            </p>
+            <p class="data">
+                <span class="abr">Мобильный телефон</span>
+                <span class="line"></span>
+                <span class="name">
+                    <input type="text" disabled class="name" value="+79535575568">
+                </span>
+            </p>
+            <p class="data">
+                <span class="abr">ИНН</span>
+                <span class="line"></span>
+                <span class="name">
+                    <input type="text" disabled class="name" value="452 2157893445">
+                </span>
+            </p>
+            <div class="save-edit-btn-block">
+                <a href="#" id="change_personal_data">Изменить данные</a>
+                <a href="#" id="save_personal_data">Сохранить данные</a>
+            </div>
+
+        </div>
+        <div class="access-block">
+            <div class="radio-button-block">
+                <div class="radio-button">
+                    <input type="radio" id="radio_1" name="radio">
+                    <label for="radio_1" class="radio">
+                        Все данные верны</label>
+                </div>
+            </div>
+            <button id="btn_select_prize" class="disabled">Выбрать приз</button>
+        </div>
+    </div>
+</div>
+
+<div style="display: none;">
+    <div class="box-modal" id="notBallsModal">
+        <div class="box-modal_close arcticmodal-close"></div>
+        <div class="atribute_modal-left"></div>
+        <div class="atribute_modal-right"></div>
+        <p class="header">У вас недостаточно<br> баллов</p>
+    </div>
+</div>
+
+
+<script type="text/javascript" src="bower_components/jquery/dist/jquery.min.js"></script>
+<script type="text/javascript" src="bower_components/arcticModal/arcticmodal/jquery.arcticmodal.js"></script>
+<script type="text/javascript" src="js/index.js"></script>
+</body>
+</html>
